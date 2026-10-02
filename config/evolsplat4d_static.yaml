@@ -1,0 +1,20 @@
+# Static Waymo inference with the unified weight/pretrain_waymo.ckpt.
+Common:
+  num_source_image: 2
+
+model:
+  sparseConv_outdim: 16
+  offset_max: 0.1
+  local_radius: 1
+  background_res: 800
+  background_radius: 60
+  background_center: [10, 0, -2]
+  voxel_size: 0.1
+  use_dynamic: False
+  interpolate_pose: False
+
+dataparser:
+  num_scenes: 1
+  use_dynamic: False
+  eval_mode: drop50
+  interpolate_pose: False

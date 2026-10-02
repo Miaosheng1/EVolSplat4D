@@ -1,0 +1,21 @@
+Common:
+  num_source_image: 2  
+
+
+model:
+  sparseConv_outdim: 16
+  offset_max: 0.1
+  local_radius: 1  ## project window radius range: 3×3
+
+  ## for background model
+  background_res: 800
+  background_radius: 60  ## for dynamic training
+  background_center: [10,0,-2]  ## for dynamic training
+  ## set the foreground voxel size
+  voxel_size: 0.1
+  use_dynamic: True
+  interpolate_pose: False
+
+dataparser:
+  num_scenes: 130
+  interpolate_pose: False
