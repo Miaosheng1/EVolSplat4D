@@ -1,5 +1,9 @@
 <h1 align="center">EVolSplat4D: Efficient Volume-based Gaussian Splatting for 4D Urban Scene Synthesis (IJCV 2026)</h1>
 
+<p align="center">
+  <img src="./docs/evolsplat4d.png" alt="EVolSplat4D logo" height="80">
+</p>
+
 [![paper](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://arxiv.org/abs/2601.15951)
 
 [Sheng Miao](https://miaosheng1.github.io/), Sijin Li, Pan Wang, Dongfeng Bai, Bingbing Liu, [Yue Wang](https://ywang-zju.github.io/), [Andreas Geiger](https://www.cvlibs.net/) and [Yiyi Liao](https://yiyiliao.github.io/)
