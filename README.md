@@ -70,7 +70,7 @@ Install [TorchSparse](https://github.com/mit-han-lab/torchsparse) 2.1.0 with Spa
 ```bash
 sudo apt-get install build-essential libsparsehash-dev
 pip install ninja backports.cached-property tqdm typing-extensions
-pip install --no-build-isolation 'git+https://github.com/mit-han-lab/torchsparse.git@v2.1.0'
+pip install --no-build-isolation 'git+https://github.com/mit-han-lab/torchsparse.git@385f5ce8718fcae93540511b7f5832f4e71fd835'
 ```
 
 ##### Install gsplat
